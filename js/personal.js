@@ -29,7 +29,6 @@ investor.addEventListener('mouseleave', hideInvestorDropDown);
 
 function showInvestorDropDown(){
     investor.style.display='block'
-    console.log('shoooooowwwwwwwwwwwww')
 }
 function hideInvestorDropDown(){
     investor.style.display='none'
