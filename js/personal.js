@@ -17,7 +17,7 @@ const contact = document.getElementById("contact")
 const cardsHead = document.getElementById("cards-head")
 const cards = document.getElementById("cards")
 
-const btnHead = documenmt.getElementById("btn-drop-down-head")
+const btnHead = document.getElementById("btn-drop-down-head")
 const btn = document.getElementById("btn-drop-down")
 
 
@@ -29,6 +29,7 @@ investor.addEventListener('mouseleave', hideInvestorDropDown);
 
 function showInvestorDropDown(){
     investor.style.display='block'
+    console.log('shoooooowwwwwwwwwwwww')
 }
 function hideInvestorDropDown(){
     investor.style.display='none'
